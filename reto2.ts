@@ -36,4 +36,3 @@ export function printContinente(pais: string){
         i++
     }
 }
-printContinente("Australia")

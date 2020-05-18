@@ -10,6 +10,6 @@ let num2:number = numCaracterArr(v2)
 let num3:number = numCaracterArr(v3)
 
 // pasar num1, num2, num3 para ver si son pares o impares
-parImpar(num1)
-parImpar(num2)
-parImpar(num3)
+console.log(parImpar(num1))
+console.log(parImpar(num2))
+console.log(parImpar(num3))

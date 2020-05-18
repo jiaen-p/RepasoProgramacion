@@ -1,7 +1,7 @@
 export function parImpar(n: number) {
     if (n % 2 === 0){
-        console.log('Es par');
+        return 'Es par';
     } else {
-        console.log('Es impar'); 
+        return 'Es impar'; 
     }
 }

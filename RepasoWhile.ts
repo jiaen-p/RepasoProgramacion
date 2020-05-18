@@ -52,7 +52,6 @@ export function printContinente(pais: string){
         i++
     }
 }
-printContinente("Australia")
 
 export function esPar(vector:number[]): boolean{
     let es:boolean = false
