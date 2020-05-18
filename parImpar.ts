@@ -1,7 +1,7 @@
-export function parImpar(n: number):string {
+export function parImpar(n: number) {
     if (n % 2 === 0){
-        return 'Es par';
+        console.log('Es par');
     } else {
-        return 'Es impar';   
+        console.log('Es impar'); 
     }
 }
