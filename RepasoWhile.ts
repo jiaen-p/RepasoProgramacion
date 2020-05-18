@@ -1,11 +1,11 @@
 export function empiezanIgual(nombres: string[]):boolean {
-    const valor: string = 'M';
+    const valor: string = 'J';
     let i:number = 0;
     var resultado:boolean = true;
     while (i < nombres.length && resultado){
-        var letra: string = nombres[i].split('')[0];
+        var letra: string = nombres[i][0];
         if (valor === letra){
-            return true;
+            resultado = true;
         }
         else{
             resultado = false;
@@ -14,6 +14,7 @@ export function empiezanIgual(nombres: string[]):boolean {
     }
     return resultado;
 }
+
 let africa = {
     "paises": ["Nigeria", "Ethiopia", "Egypt", "Democatic Republic of the Congo", "South Africa"],
     "continente":"africa"

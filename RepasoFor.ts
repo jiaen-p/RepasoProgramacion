@@ -1,11 +1,16 @@
-export function imparesHasta (n:number): number{
-    let i:number;
-    for (i = 1; i < n; i += 2){
-        return i;
+export function imparesHasta (n:number): number[]{
+    let vect: number[] = []
+    for (let i = 1; i < n; i += 2){
+        vect.push(i)
     }
+    return vect
 }
 export function reverse(arr){
-    return arr.reverse()
+    let res: number[] = []
+    for(let i = arr.length - 1; i >= 0; i--){
+        res.push(arr[i])
+    }
+    return res
 }
 export function numCaracterArr(arr :string[]): number{
     let num:number = 0
@@ -14,3 +19,5 @@ export function numCaracterArr(arr :string[]): number{
     })
     return num
 }
+
+console.log(imparesHasta(7))

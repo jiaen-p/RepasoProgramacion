@@ -10,11 +10,11 @@ export function arcoIris(colores: string[]): string {
     }
 }
 export function parImpar(n: number) {
+    let res: string = 'Es impar'
     if (n % 2 === 0){
-        return 'Es par';
-    } else {
-        return 'Es impar'; 
-    }
+        res = 'Es par';
+    } 
+    return res
 }
 export function signoZod(d: number, m: number): string {
     let acuario = (d >= 20 && m == 1) || (d <= 18 && m == 2)
